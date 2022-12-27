@@ -1,0 +1,37 @@
+.area {
+    width: 300px;
+    height: 300px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.winnerText {
+    width: 300px;
+    text-align: center;
+    margin: 20px auto 0px;
+}
+
+.resetButton {
+    display: none;
+    margin: 10px auto 0px;
+    padding: 2px 25px;
+}
+
+.turn {
+    text-align: center;
+    margin: 5px auto 0px;
+    width: 300px;
+}
